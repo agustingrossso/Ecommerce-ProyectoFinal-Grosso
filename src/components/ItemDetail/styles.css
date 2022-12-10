@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-contador{
+    padding: 5px;
+}
+
+.botonAgregar{
+    background-color: rgb(202, 13, 3);
+    border-color: 5px solid black;
+    border: 25px;
+    border-radius: 10px;
+    border: 40px;
+    padding: 5px;
+}

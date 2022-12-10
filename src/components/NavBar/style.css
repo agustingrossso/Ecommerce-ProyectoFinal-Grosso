@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navbar-container{
+    background-color: rgb(250, 245, 239);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    color:white;
+    
+
+}
+
+.menu-title {
+    width: 35%;
+}
+
+.menu-title:hover{
+    cursor: pointer;
+}
+
+/* .menu-items li{
+    list-style: none;
+    display: inline-block;
+    padding:  ;
+   
+    font-size: 25px;
+    
+
+    
+} */
+.menu-items a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.menu-items li{
+    display: inline-block;
+    padding: 0 20px;
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Link Activo e Inactivo */
+.menu-items .active{
+    color: rgb(255, 255, 255);
+    /* border-color: aqua; */
+    
+}
+
+.menu-items .inactive{
+    color: rgb(151, 141, 141);
+}
+

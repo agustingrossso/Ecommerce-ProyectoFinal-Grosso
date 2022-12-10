@@ -1,0 +1,21 @@
+.menu-navbar-img{
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+.menu_navbar_logo{
+    width: 15%;
+}
+
+.menu_navbar_logo:hover{
+    cursor: pointer;
+}
+
+/* .contenedor-bag{
+    margin: 100px,
+    display: flex, 
+    flexDirection: row, 
+    width: 100%, 
+    justifyContent:space-around
+} */
