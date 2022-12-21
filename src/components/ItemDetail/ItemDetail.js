@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { cartContext } from "../../Context/CartProvider";
 import ItemCount from '../ItemCount/ItemCount';
 import "./styles.css";
-import Button from 'react-bootstrap/Button';
 
 
 const ItemDetail = ({productSelected}) => {

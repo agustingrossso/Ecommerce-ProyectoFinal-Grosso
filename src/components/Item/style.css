@@ -6,7 +6,7 @@ width: 100%;
 justify-content: space-around;
 } */
 
-/* .contenedor{
-    display: inline-block;
-    
-} */
+.padre{
+    display: flex;
+    justify-content: space-between;
+}

@@ -37,7 +37,7 @@ const Cart = () => {
     };
     addDoc(query, newOrder)
     .then((response) => {
-      alert(`Su compra ha sido realizada le informaremos en su email cuando este para despachar`<br>`ID: ${response.id})
+      alert(`Su compra ha sido realizada le informaremos en su email cuando este para despachar. ID: ${response.id}`)
       return(response)
     })
     .then((res) => {
@@ -87,8 +87,8 @@ const Cart = () => {
 
 
         </div>
-        <button onClick={createOrder} className="relative block w-full appearance-none bg-black text-white rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm hover:bg-green-800 hover:ring-black">Crear Orden</button>
-        <button onClick={clear} className="relative block w-full appearance-none bg-black text-white rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm hover:bg-red-800 hover:ring-red">Vaciar Carrito</button>
+        <button onClick={createOrder} className="relative block w-full appearance-none bg-black text-gray-100 rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm hover:bg-green-800 hover:ring-black">Crear Orden</button>
+        <button onClick={clear} className="relative block w-full appearance-none bg-black text-gray-100 rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm hover:bg-red-800 hover:ring-red">Vaciar Carrito</button>
       </div>
     </div>
   )
